@@ -1,0 +1,8 @@
+<div class="subtotal" if="cart().discount_amount_no_html > 0">
+    <span class="label">
+        <!-- ko i18n: 'Discount ' --><!-- /ko -->
+    </span>
+    <div class="amount price-container">
+	    <span class="price-wrapper" data-bind="html: cart().discount_amount"></span>
+	</div>
+</div>
